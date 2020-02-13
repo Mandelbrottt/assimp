@@ -13,6 +13,7 @@ project "Assimp"
 	    "include/assimp",
 	    "contrib/irrXML",
 	    "contrib/zlib",
+	    "contrib/unzip",
 	    "contrib/rapidjson/include",
 	}
 

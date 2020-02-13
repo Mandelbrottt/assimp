@@ -105,16 +105,16 @@ ASSIMP_API unsigned int aiGetCompileFlags ()    {
 }
 
 // include current build revision, which is even updated from time to time -- :-)
-#include "revision.h"
-
-// ------------------------------------------------------------------------------------------------
-ASSIMP_API unsigned int aiGetVersionRevision() {
-    return GitVersion;
-}
-
-ASSIMP_API const char *aiGetBranchName() {
-    return GitBranch;
-}
+//#include "revision.h"
+//
+//// ------------------------------------------------------------------------------------------------
+//ASSIMP_API unsigned int aiGetVersionRevision() {
+//    return GitVersion;
+//}
+//
+//ASSIMP_API const char *aiGetBranchName() {
+//    return GitBranch;
+//}
 
 // ------------------------------------------------------------------------------------------------
 ASSIMP_API aiScene::aiScene()
